@@ -1,0 +1,7 @@
+setwd("~/RData/baseballdatabank-master/core")
+
+# Load Data
+Batting <- read.csv("Batting.csv", stringsAsFactors = FALSE)
+Pitching <- read.csv("Pitching.csv", stringsAsFactors = FALSE)
+Fielding <- read.csv("Fielding.csv", stringsAsFactors = FALSE)
+People <- read.csv("People.csv", stringsAsFactors = FALSE) 
