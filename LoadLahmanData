@@ -1,4 +1,4 @@
-setwd("~/RData/baseballdatabank-master/core")
+setwd("~/RData/baseballdatabank-master/core") # Change to the path of your Lahman database
 
 # Load Data
 Batting <- read.csv("Batting.csv", stringsAsFactors = FALSE)
